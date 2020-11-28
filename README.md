@@ -1,5 +1,5 @@
 This is a simple set of scripts for automating notetaking in text files. The scripts make a couple of assumptions:
-- There is a single directory on the computer where the notes will be kept. By default, this is ~/notes. You can set the NOTES_DIR environment variable to use a different directory.
+- There is a single directory on the computer where the notes will be kept. By default, this is ~/notes. You can set the `NOTES_DIR` environment variable to use a different directory. The scripts were originally written to be in the same directory as the note files, but that isn't required.
 - The filenames use the format YYYY-MM-DD.txt and there is a single file for each day
 
 Each script behaves as follows:
